@@ -1,0 +1,30 @@
+{
+  "name": "chat-backend",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.8.0",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "marked": "^6.0.0",
+    "pg": "^8.9.0",
+    "sanitize-html": "^2.11.1",
+    "socket.io": "^4.7.0",
+    "bad-words": "^3.0.4",
+    "node-cron": "^3.0.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
